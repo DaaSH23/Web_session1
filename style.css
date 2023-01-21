@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.home{
+    height: 700px;
+    /* flex: auto; */
+    background-image: linear-gradient(to bottom right, #561139, #38a2d7);
+}
+/* .home{
+    height: 800px;
+} */
+
+img{
+    /* boder of image*/
+    border-radius: 100%;
+    border: 5px solid;
+    border-color: #212258;
+
+    /* size of image */
+    height: 200px;
+    width: 200px;
+}
+.imga{
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+}
+p{
+    text-align: center;  
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* contact section*/
+.contact-section{
+    background-image: linear-gradient(to bottom right, #FFEB70, #F02262);
+    height: 600px;
+}
+
+.contact-section h1{
+    font-size: 45px;
+    padding: 55px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .contact h1{
+    font-size: 45px;
+    padding: 55px;
+    padding-bottom: 100px;
+    text-align: center;
+} */
+
+.contact form{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 5%;
+    padding: 30px;
+    width: 30rem;
+    background: #ffffff77;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-left: 20%;
+}
+
+.contact input{
+    margin-bottom: 10px;
+    /* inline-size: 10px; */
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 2px;
+    border: none;
+    background-color: #941d1d3d;
+}
+.contact textarea{
+    border-radius: 5px;
+    border: none;
+    background-color: #941d1d3d;
+}
+
+.btn {
+    /* align-items: center; */
+    border: none;
+    padding: 10px 22px;
+    background: #46c374b5;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 22px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
